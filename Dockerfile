@@ -1,7 +1,7 @@
 FROM bentoml/model-server:0.11.0-py39
 MAINTAINER ersilia
 
-RUN conda install -c tmap tmap==1.0.6
+RUN conda install -y -c tmap tmap==1.0.6
 RUN pip install rdkit==2024.9.6
 RUN pip install biopython==1.78
 RUN pip install biopandas==0.2.8
