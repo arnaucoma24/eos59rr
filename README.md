@@ -2,7 +2,8 @@
 
 Turns a molecule into a 37 by 36 feature map on which MACCS, pharmacophore ErG and PubChem fingerprint bits are positioned by how they correlate across 8.5 million PubChem molecules, so related bits land next to one another and a convolutional network can read the result as a picture. Shen and colleagues showed that image architectures fed these maps matched or beat graph-based models on most of 26 pharmaceutical benchmarks. Ersilia collapses the three fingerprint channels by summing them, so each returned value is a channel sum.
 
-This model was incorporated on 2023-07-03.Last packaged on 2025-10-17.
+This model was incorporated on 2023-07-03.
+Last packaged on 2025-10-17.
 
 ## Information
 ### Identifiers
